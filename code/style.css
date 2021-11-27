@@ -1,9 +1,15 @@
+@font-face {
+  font-family: 'iransanss';
+  src: url("../fonts/IRANSans.eot"), url("../fonts/IRANSans.otf") format("otf"), url("../fonts/IRANSans.svg") format("svg"), url("../fonts/IRANSans.woff") format("woff"), url("../fonts/IRANSans.woff2") format("woff2");
+  font-weight: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
   border: 0;
   vertical-align: baseline;
-  font-family: fantasy;
+  font-family: 'iransanss';
 }
 
 .header-site {
@@ -71,7 +77,6 @@
 }
 
 .header-banner h3 {
-  letter-spacing: .1em;
   color: #fff;
   margin-bottom: 2.9em;
 }
