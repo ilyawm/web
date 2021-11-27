@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-family: fantasy;
+}
+
+.header-site {
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url(../img/bg.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.header-logo {
+  top: 15%;
+  left: 32%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-logo .logo {
+  text-decoration: none;
+  color: #dac617;
+  font-size: 4.9em;
+  border: solid 2px #dac617;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 110px;
+}
+
+.header-logo .title1 {
+  margin-left: .6em;
+  color: #ebebeb;
+}
+
+.header-logo .title1 .title-head {
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 600;
+  text-shadow: 2px 6px 4px #000;
+}
+
+.header-logo .title1 .subtitle-head {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 4px;
+}
+
+.header-banner {
+  top: 38%;
+  left: 42%;
+  text-align: center;
+  position: absolute;
+}
+
+.header-banner .title-banner {
+  font-size: 5em;
+  color: #dac617;
+  font-family: cursive;
+  margin-bottom: .8em;
+}
+
+.header-banner h3 {
+  letter-spacing: .1em;
+  color: #fff;
+  margin-bottom: 2.9em;
+}
+
+.header-banner .btn-banner {
+  font-size: 1.1em;
+  background-color: transparent;
+  text-transform: uppercase;
+  padding: 0.5em;
+  width: 9.2em;
+  height: 2.6em;
+  color: #dac617;
+  border: solid 2px #dac617;
+  cursor: pointer;
+  transition: all, ease, 0.4s;
+  -o-transition: all, ease, 0.4s;
+  -moz-transition: all, ease, 0.4s;
+  -webkit-transition: all, ease, 0.4s;
+}
+
+.header-banner .btn-banner:hover {
+  background-color: #dac617;
+  color: #000;
+}
+/*# sourceMappingURL=style.css.map */
