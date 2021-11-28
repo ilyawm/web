@@ -26,7 +26,7 @@ $color-yellow: #dac617;
 
 @mixin center1($tp) {
     top: $tp;
-    left: 32%;
+    left: 40%;
 }
 
 @font-face{
@@ -41,7 +41,7 @@ $color-yellow: #dac617;
     padding: 0;
     border: 0;
     vertical-align: baseline;
-    font-family: 'iransanss';
+    font-family: 'iransanss',cursive;
 }
 
 .header-site{
@@ -87,7 +87,7 @@ $color-yellow: #dac617;
 }
 .header-banner{
     top: 38%;
-    left: 42%;
+    left: 40%;
     text-align: center;
     position: absolute;
     
